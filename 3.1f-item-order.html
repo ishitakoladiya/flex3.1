@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FRUITS</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #826a98;
+        display: flex; /* block level flex container */
+      }
+
+      .item {
+        color:black;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        order:1;
+        background-color:red;
+      }
+
+      .item-2 {
+        order:1;
+        background-color:yellow;
+        
+      }
+
+      .item-3 {
+        background-color:green;
+      }
+
+      .item-4 {
+        background-color:yellow;
+      }
+
+      .item-5 {
+        background-color:orange;
+        /*order: 2;  higher order number will aligned to extreme right or at the end */
+      }
+      
+      .item-6 {
+        background-color:red;
+      }
+
+      .item-7 {
+        background-color:pink;
+      }
+
+      .item-8 {
+        order: 3;
+        background-color:red;
+      }
+
+      .item-9 {
+        background-color: yellow;
+        order: -1; /* higher order number will aligned to extreme right or at the end */
+      }
+      
+      .item-10 {
+        background-color:green;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+      <div class="item item-1"><marquee>Apple</marquee></div>
+      <div class="item item-2"><marquee>Pineapple</marquee></div>
+      <div class="item item-3"><marquee>kiwi</marquee></div>
+      <div class="item item-4"><marquee>Mango</marquee></div>
+      <div class="item item-5"><marquee>Orange</marquee></div>
+      <div class="item item-6"><marquee>Watermelon</marquee></div>
+      <div class="item item-7"><marquee>strawberry</marquee></div>
+      <div class="item item-8"><marquee>cherry</marquee></div>
+      <div class="item item-9"><marquee>banana</marquee></div>
+      <div class="item item-10"><marquee>Jackfruit</marquee></div>
+    </div>
+    
+  </body>
+  
+</html>
